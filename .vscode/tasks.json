@@ -1,0 +1,23 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "g++-6 build active file",
+      "command": "/usr/bin/g++-6",
+      "args": [
+        "-g",
+        "-o",
+        "/home/nick/Documents/C++/a.out",
+        "${file}"
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ],
+  "version": "2.0.0"
+}
